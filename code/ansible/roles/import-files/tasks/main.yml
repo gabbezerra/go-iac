@@ -1,0 +1,7 @@
+---
+# tasks file for import-files
+
+- name: Enviando script
+  synchronize:
+    src: ../../app/*
+    dest: /usr/local/
